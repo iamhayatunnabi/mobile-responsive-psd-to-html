@@ -1,0 +1,153 @@
+
+/* extra Small devices (landscape phones, 290px and up) */
+@media (min-width: 290px) {
+    .title img{
+        margin-left: 0;
+    }
+    .images {
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .burger-content h1{
+        margin-top: 50px;
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    
+    .burger-content p{
+        margin-bottom: 20px;
+    }
+    input{
+       margin-bottom: 15px;
+       border-radius: 25px;
+    }
+    
+    .btn-subs{
+        border-radius: 25px;
+    }
+    footer{
+        text-align: center;
+    }
+    .icon i{
+        margin-bottom: 15px;
+    }
+    h5{
+        margin-top: 20px;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .title img{
+        margin-left: 0;
+    }
+    .images {
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        font-size: 35px;
+    }
+    
+    .burger-content h1{
+        margin-top: 50px;
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    
+    .burger-content p{
+        margin-bottom: 20px;
+    }
+    input{
+         margin-bottom: 15px;
+         border-radius: 25px;
+     }
+     
+     .btn-subs{
+         border-radius: 25px;
+     }
+     footer{
+        text-align: center;
+    }
+    .icon i{
+        margin-bottom: 15px;
+    }
+    h5{
+        margin-top: 20px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .images {
+        display: flex;
+        justify-content: center;
+    }
+    .title img{
+        margin-left: 0;
+    }
+    h1{
+        font-size: 50px;
+    }
+
+    .burger-content h1{
+        margin-top: 40px;
+        font-size: 50px;
+    }
+    .burger-content h1{
+        margin-top: 60px;
+        font-size: 55px;
+        margin-bottom: 30px;
+    }
+    .burger-content p{
+        margin-bottom: 30px;
+    }
+    input{
+        margin-bottom: 15px;
+        border-radius: 25px;
+     }
+     
+     .btn-subs{
+         border-radius: 25px;
+     }
+
+     
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .burger-content h1{
+        margin-top: 100px;
+    }
+    input{
+        border-radius: 25px 0 0 25px;
+    }
+    
+    .btn-subs{
+        border-radius: 0 25px 25px 0;  
+ }
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    input{
+        border-radius: 25px 0 0 25px;
+    }
+    
+    .btn-subs{
+        border-radius: 0 25px 25px 0;  
+ }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+     input{
+        border-radius: 25px 0 0 25px;
+    }
+    
+    .btn-subs{
+        border-radius: 0 25px 25px 0;  
+ }
+ }

@@ -1,0 +1,315 @@
+/* ---------------------------
+Common-Style
+--------------------------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F64B3C;
+}
+
+header{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    font-size: 61px;
+    color: #fff;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+    color: #fff
+}
+button{
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #F64B3C;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 25px;
+}
+/* *******************************
+        Navbar -start
+************************************ */
+.nav-link {
+    font-size: 18px;
+    color: #fff !important;
+    font-weight: 600;
+}
+li{
+ padding: 20px;
+}
+li:last-child{
+    padding-right: 0;
+}
+ .banner-image h1{
+    margin-top: 100px;
+    margin-bottom: 35px;
+ }
+ .banner-image p{
+     margin-bottom: 35px;
+ }
+ .banner-image button{
+     margin-bottom: 100px;
+ }
+
+ /* ---------------------------
+Our Chef list -Start
+--------------------------- */
+.chef-part {
+    background-image: url(../images/chef.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.chef{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.our-chef{
+    text-align: center;
+}
+/* .chef img{
+   margin-left:90px;
+} */
+.our-chef h1{
+    font-size: 55px;
+    color: #F64B3C;
+    margin-bottom: 25px;
+}
+.our-chef p{
+    color:#F64B3C;
+    margin-bottom: 40px;
+}
+.title h3{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color:#F64B3C;
+    margin-top: 15px;
+}
+.title p{
+    color: #F64B3C;
+    text-align: center;
+}
+.title img{
+    margin-left: 84px;
+}
+
+ /* ---------------------------
+best burger -start
+--------------------------- */
+.best-burger{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.burger-content h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.burger-content p{
+    margin-bottom: 30px;
+}
+.burger-content button{
+    background-color: #fff;
+    color: #F64B3C;
+}
+
+.big-burger{
+    background-image: url(../images/big.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.best-burger{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.big-burger h1{
+    color: #F64B3C;
+}
+.big-burger p{
+    color: #F64B3C;
+}
+.big-burger button{
+    color: #fff;
+    background-color: #F64B3C;
+}
+
+/* ---------------------------
+Statistics -start
+--------------------------- */
+.statistic{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    
+}
+.row{
+    justify-content: space-evenly !important;
+}
+.statistic-content{
+    height: 200px;
+    width: 200px;
+    border: 3px solid #fff;
+    margin-right: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.statistic h1{
+    font-size: 55px;
+    margin-top: 40px;
+}
+.statistic h3{
+    color: #fff;
+    font-size: 24px;
+}
+
+.package{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* background-image: url(../images/big.jpg); */
+}
+
+/* ---------------------------
+popular -start
+--------------------------- */
+
+.popular, .sub{
+    background-image: url(../images/big.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.populet-title h1{
+    text-align: center;
+    color:#F64B3C;
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+.first-item{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.first-item h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #F64B3C;
+    padding-top: 25px;
+}
+.first-item p{
+    color: #F64B3C;
+    padding-right: 10px;
+}
+.first-item button{
+    margin-bottom: 25px;
+}
+
+/* ---------------------------
+Barry -start
+--------------------------- */
+.barry{
+    background-image: url(../images/barry.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.barry-img{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.barry-content h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff
+}
+
+.barry-content h2{
+    font-weight: 700;
+    color: #fff;
+    margin-top: 50px;
+}
+
+/* ---------------------------
+Subscribe -start
+--------------------------- */
+.subscribe{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.sub-title h1{
+    font-size: 55px;
+    color: #F64B3C;
+    margin-bottom: 20px;
+}
+.sub-title p{
+    color: #F64B3C;
+    margin-bottom: 40px;
+}
+input{
+    border: none;
+    padding: 12px 70px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.btn-subs{
+    border-radius: 0 25px 25px 0;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #F64B3C;
+    color: #fff;
+    padding: 10px 50px;
+}
+
+/* ---------------------------
+Footer -start
+--------------------------- */
+footer{
+    background-color: #222222;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+h5{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+
+.icon i{
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 12px;
+}
+.icon i:nth-child(2){
+    padding-right: 14px;
+    padding-left: 14px;
+}
+span{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.navbar-toggler-icon{
+    background-color: #fff !important
+}
